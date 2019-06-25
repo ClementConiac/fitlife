@@ -1,0 +1,91 @@
+body{
+    margin:0;
+    color: #fff;
+}
+.contain {
+    background: url("../images/fitlife.jpg") center no-repeat;
+    background-size:cover;
+    height: 150vh;
+    color: #ffffff;
+}
+
+.bckGround{
+    position: fixed;
+    height: 100vh;
+}
+.logo{
+    width:355px;
+}
+.flour {
+    position : absolute;
+    background: inherit;
+    height: 354px;
+
+    border-radius: 40px;
+}
+
+.flour:after{
+    content: '';
+    width: 380px;
+    height: 400px;
+    position: absolute;
+    border-radius: 40px;
+    top: -25px;
+    box-shadow: inset 0 0 0 200px rgba(112, 78, 81, 0.5);
+    background-color: #707070 ;
+    opacity: 0.9;
+
+}
+
+.zIndex {
+    z-index: 2;
+    text-align: center;
+    color: #fff;
+}
+#portrait{
+    position: absolute;
+    text-align: center;
+}
+.progress{
+    height: 10px;
+    position: relative;
+    top: 400px;
+}
+
+
+#portrait img{
+    border-radius: 100%;
+    border: 3px solid #BA0043;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    left: 102px;
+    top: 10px;
+
+}
+h6{
+    position: absolute;
+    top: 140px;
+    left: 70px;
+}
+#ident{
+    top: 120px;
+    position: relative;
+    right: 10px
+}
+#infos{
+    position: relative;
+    top: 120px;
+    right: 10px;
+}
+.graph{
+    background-color: #BA0043;
+    border-color: transparent;
+
+}
+.graphi{
+    position: absolute;
+    bottom: -123px;
+    right: 50px;
+    background-color: rgba(255, 255, 255, 0.52);
+}
